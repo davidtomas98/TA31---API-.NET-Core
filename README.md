@@ -60,6 +60,38 @@ CREATE TABLE 'videos' (
 
 ## Proyecto 3: CRUD Avanzado
 
+### Base de Datos
+
+-- Tabla CIENTIFICOS
+```sql
+CREATE TABLE 'CIENTIFICOS' (
+    DNI varchar (8) NOT NULL AUTO_INCREMENT,
+    NomApels nvarchar(255) DEFAULT NULL,
+    PRIMARY KEY (DNI)
+);
+```
+
+-- Tabla PROYECTO
+```sql
+CREATE TABLE 'PROYECTO' (
+    id char (4) NOT NULL AUTO_INCREMENT,
+    Nombre nvarchar(255) DEFAULT NULL,,
+    Horas nvarchar(255) DEFAULT NULL,
+    PRIMARY KEY (id)
+);
+```
+
+-- Tabla ASIGNADO_A
+```sql
+CREATE TABLE 'ASIGNADO_A' (
+    Cientifico varchar(8) DEFAULT NULL,
+    Proyecto char(4) DEFAULT NULL,
+    PRIMARY KEY (Cientifico, Proyecto),
+    FOREIGN KEY (Cientifico) REFERENCES CIENTIFICOS(DNI),
+    FOREIGN KEY (Proyecto) REFERENCES PROYECTO(Id)
+);
+```
+
 ### Funcionalidades
 
 1. 📝 Operaciones CRUD avanzadas en la tercera base de datos.
