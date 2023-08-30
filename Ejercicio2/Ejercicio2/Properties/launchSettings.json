@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1136",
+      "sslPort": 44309
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchUrl": "swagger", // Página que se abrirá en el navegador al lanzar la aplicación
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5105",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchUrl": "swagger", // Página que se abrirá en el navegador al lanzar la aplicación
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7111;http://localhost:5105",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchUrl": "swagger", // Página que se abrirá en el navegador al lanzar la aplicación
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

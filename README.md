@@ -1,8 +1,8 @@
-﻿# 📁 Proyectos de CRUD en .NET Windows Forms con patrón MVC
+﻿# 📁 Ejercicios de CRUD en .NET Windows Forms con patrón MVC
 
-En estos tres proyectos, se desarrollarán aplicaciones de Windows Forms utilizando el patrón de diseño Modelo-Vista-Controlador (MVC) para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en bases de datos relacionales. Cada proyecto se enfocará en interactuar con una base de datos diferente, utilizando vistas diseñadas para facilitar las acciones CRUD mientras se incorporan validadores de usuario.
+En estos tres Ejercicios, se desarrollarán aplicaciones de Windows Forms utilizando el patrón de diseño Modelo-Vista-Controlador (MVC) para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en bases de datos relacionales. Cada proyecto se enfocará en interactuar con una base de datos diferente, utilizando vistas diseñadas para facilitar las acciones CRUD mientras se incorporan validadores de usuario.
 
-## Proyecto 1: CRUD de Clientes
+## Ejercicio 1: CRUD de Clientes
 
 ### Base de Datos
 
@@ -25,7 +25,7 @@ CREATE TABLE 'cliente' (
 3. 🔒 Validadores de usuario implementados para garantizar la integridad de los datos.
 
 
-## Proyecto 2: CRUD de Clientes y Videos
+## Ejercicio 2: CRUD de Clientes y Videos
 
 ### Base de Datos
 
@@ -58,7 +58,7 @@ CREATE TABLE 'videos' (
 3. 🔒 Validadores de usuario implementados para mantener la consistencia de los datos.
 
 
-## Proyecto 3: CRUD Avanzado
+## Ejercicio 3: CRUD Avanzado
 
 ### Base de Datos
 
