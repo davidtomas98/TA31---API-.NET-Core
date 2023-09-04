@@ -7,9 +7,9 @@ namespace Ejercicio1.Repositories
     // Implementación del repositorio de clientes que interactúa con la base de datos.
     public class ClienteRepository : IClienteRepository
     {
-        private readonly AppDbContext _dbContext;
+        private readonly APIContext _dbContext;
 
-        public ClienteRepository(AppDbContext dbContext)
+        public ClienteRepository(APIContext dbContext)
         {
             _dbContext = dbContext;
         }

@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ejercicio3.Data
 {
-    public class AppDbContext : DbContext
+    public class APIContext : DbContext
     {
         private readonly IConfiguration configuration;
 
-        public AppDbContext(DbContextOptions<AppDbContext> options, IConfiguration configuration)
+        public APIContext(DbContextOptions<APIContext> options, IConfiguration configuration)
             : base(options)
         {
             this.configuration = configuration;

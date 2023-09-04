@@ -9,9 +9,9 @@ namespace Ejercicio3.Repositories
     /// </summary>
     public class ProyectoRepository : IProyectoRepository
     {
-        private readonly AppDbContext _dbContext;
+        private readonly APIContext _dbContext;
 
-        public ProyectoRepository(AppDbContext dbContext)
+        public ProyectoRepository(APIContext dbContext)
         {
             _dbContext = dbContext;
         }

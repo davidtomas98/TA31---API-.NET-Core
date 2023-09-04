@@ -6,12 +6,12 @@ using MySql.Data.EntityFrameworkCore.Storage;
 namespace Ejercicio1.Data
 {
     // Clase que define el contexto de la base de datos de la aplicación.
-    public class AppDbContext : DbContext
+    public class APIContext : DbContext
     {
         private readonly IConfiguration configuration;
 
         // Constructor que recibe las opciones de configuración y la configuración de la aplicación.
-        public AppDbContext(DbContextOptions<AppDbContext> options, IConfiguration configuration)
+        public APIContext(DbContextOptions<APIContext> options, IConfiguration configuration)
             : base(options)
         {
             this.configuration = configuration;

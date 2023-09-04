@@ -12,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Configure database context
-builder.Services.AddDbContext<AppDbContext>();
+builder.Services.AddDbContext<APIContext>();
 
 // Add scoped repositories to the service container
 builder.Services.AddScoped<IAsignadoRepository, AsignadoRepository>();

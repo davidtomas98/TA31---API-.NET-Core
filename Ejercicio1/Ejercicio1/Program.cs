@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Configurar la base de datos.
-builder.Services.AddDbContext<AppDbContext>();
+builder.Services.AddDbContext<APIContext>();
 
 // Agregar la dependencia del repositorio de clientes.
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();

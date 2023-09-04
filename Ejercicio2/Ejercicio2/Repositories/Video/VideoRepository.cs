@@ -7,9 +7,9 @@ namespace Ejercicio2.Repositories
     // Implementación del repositorio de videos.
     public class VideoRepository : IVideoRepository
     {
-        private readonly AppDbContext _dbContext;
+        private readonly APIContext _dbContext;
 
-        public VideoRepository(AppDbContext dbContext)
+        public VideoRepository(APIContext dbContext)
         {
             _dbContext = dbContext;
         }
